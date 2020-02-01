@@ -23,14 +23,10 @@ public class Main {
 
         String startDate = input[0];
         String startDateOnly = startDate.split("\\s+")[0];
-        String startTimeOnly = startDate.split("\\s+")[1];
 
         String endDate = input[1];
         String endDateOnly = endDate.split("\\s+")[0];
-        String endTimeOnly = endDate.split("\\s+")[1];
 
-        // this will store the dates
-        List<Date> dates = new ArrayList<>();
 
         Date beginDate = null;
         Date finalDate = null;
